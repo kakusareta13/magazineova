@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jazz"
+   <meta name="description" content="интернет магазин"
+   <meta name="keywords" content="магазин одежды, душанбе, куляб, таджикистан, одежда"
+  <title>МОДАИ МО | магазин современной одежды</title>
+  <!-- Подключение CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome для иконок -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Шапка сайта -->
+    <nav class="navbar">
+      <div class="logo">МОДА<span>И</span>МО</div>
+
+      <!-- Переключатель языков -->
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="ru">🇷🇺 РУС</button>
+        <button class="lang-btn" data-lang="tg">🇹🇯 ТОҶИКӢ</button>
+      </div>
+
+      <!-- Навигация -->
+      <div class="nav-links">
+        <a href="#" data-ru="Каталог" data-tg="Каталог">Каталог</a>
+        <a href="#novinki" data-ru="Новинки" data-tg="Навҳо">Новинки</a>
+        <a href="#" data-ru="О нас" data-tg="Дар бораи мо">О нас</a>
+        <a href="#contact" data-ru="Контакты" data-tg="Тамос">Контакты</a>
+      </div>
+      
+      <!-- Иконки пользователя -->
+      <div class="icons">
+        <i class="far fa-user"></i>
+        <i class="far fa-heart"></i>
+        <i class="far fa-shopping-bag"></i>
+      </div>
+    </nav>
+
+    <!-- Hero секция -->
+    <section class="hero">
+      <h1>
+        <span data-ru="ОДЕЖДА С ХАРАКТЕРОМ" data-tg="ЛИБОСИ БО ХУСУСИЯТ">ОДЕЖДА С ХАРАКТЕРОМ</span>
+        <span data-ru="ДЛЯ СМЕЛЫХ" data-tg="БАРОИ ШУҶОЪОН">ДЛЯ СМЕЛЫХ</span>
+      </h1>
+      <div class="hero-desc" data-ru="Минимализм, текстуры и восточный комфорт. Одежда, в которой ты -- настоящий." data-tg="Минимализм, матоъҳо ва роҳати шарқӣ. Либосе, ки ту дар он худ ҳастӣ.">
+        Минимализм, текстуры и восточный комфорт. Одежда, в которой ты -- настоящий.
+      </div>
+    </section>
+
+    <!-- Фильтры -->
+    <div class="filter-section">
+      <span class="filter-chip active"><i class="fas fa-tshirt"></i> <span data-ru="Всё" data-tg="Ҳама">Всё</span></span>
+      <span class="filter-chip"><i class="fas fa-vest"></i> <span data-ru="Верх" data-tg="Боло">Верх</span></span>
+      <span class="filter-chip"><i class="fas fa-shoe-prints"></i> <span data-ru="Низ" data-tg="Пойин">Низ</span></span>
+      <span class="filter-chip"><i class="fas fa-hat-cowboy"></i> <span data-ru="Аксессуары" data-tg="Аксессуарҳо">Аксессуары</span></span>
+    </div>
+
+    <a name="novinki"></a>
+    
+    <!-- Сетка товаров -->
+    <div class="product-grid">
+      <!-- Карточка 1 -->
+      <div class="product-card">
+        <div class="product-image"><img src="https://i.ebayimg.com/images/g/dCkAAOSwc2poUZJn/s-l500.jpg"alt="New Balance 9060" style="width: 100%; height: 100%; object-fit: cover;"></div>
+        <div class="product-category" data-ru="ОБУВЬ" data-tg="ПОЯФЗОЛ">ОБУВЬ</div>
+        <div class="product-title" data-ru="New Balance 9060" data-tg="New Balance 9060">New Balance 9060</div>
+        <div class="product-price">700 сомони</div>
+        <button class="btn-add"><i class="fas fa-plus"></i> <span data-ru="Добавить" data-tg="Илова">Добавить</span></button>
+      </div>
+
+      <!-- Карточка 2 -->
+      <div class="product-card">
+        <div class="product-image"><img src="https://img.joomcdn.net/bff801bb114a3ded75240f965e7badc699381798_original.jpeg"alt="Куртка Trapstar" style="width: 100%; height: 100%; object-fit: cover;"></div>
+        <div class="product-category" data-ru="ВЕРХНЯЯ ОДЕЖДА" data-tg="КУРТКАҲО">ВЕРХНЯЯ ОДЕЖДА</div>
+        <div class="product-title" data-ru="Куртка Trapstar" data-tg="Куртка Trapstar"> Куртка Trapstar</div>
+        <div class="product-price">650 сомони</div>
+        <button class="btn-add"><i class="fas fa-plus"></i> <span data-ru="Добавить" data-tg="Илова">Добавить</span></button>
+      </div>
+
+      <!-- Карточка 3 -->
+      <div class="product-card">
+        <div class="product-image"><img src="https://avatars.mds.yandex.net/get-mpic/5246132/2a000001932edd9a3f720591132b491d763b/orig"alt="Худи" style="width: 100%; height: 100%; object-fit: cover;"></div>
+        <div class="product-category" data-ru="ОДЕЖДА" data-tg="ЛИБОСҲО">ОДЕЖДА</div>
+        <div class="product-title" data-ru="Худи" data-tg="Худи">Худи</div><div class="product-price">250 сомони</div>
+        <button class="btn-add"><i class="fas fa-plus"></i> <span data-ru="Добавить" data-tg="Илова">Добавить</span></button>
+      </div>
+
+      <!-- Карточка 4 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="https://img.joomcdn.net/b5e3961ff410d541487a4da7695f6c007849c9e9_original.jpeg"alt="Тюбетейка" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="product-category" data-ru="АКСЕССУАРЫ" data-tg="АКСЕССУАРҲО">АКСЕССУАРЫ</div>
+        <div class="product-title" data-ru="Тюбетейка" data-tg="Тоққи">Тюбетейка</div>
+        <div class="product-price">130 сомони</div>
+        <button class="btn-add"><i class="fas fa-plus"></i> <span data-ru="Добавить" data-tg="Илова">Добавить</span></button>
+      </div>
+    </div>
+
+    <!-- Баннер -->
+    <section class="banner">
+      <div class="banner-text">
+        <h2 data-ru="#ТОЧИКСТИЛЬ" data-tg="#ТОҶИКСТИЛ">#ТОЧИКСТИЛЬ</h2>
+        <p data-ru="Скидка 15% на первый заказ" data-tg="15% тахфиф ба фармоиши аввал">Скидка 15% на первый заказ</p>
+      </div>
+      <button class="banner-btn" data-ru="Активировать" data-tg="Фаъол кардан">Активировать</button>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+      <div class="footer-col">
+        <div class="logo" style="font-size: 32px; margin-bottom: 10px;">МОДА<span>И</span>МО</div>
+        <p data-ru="Современная одежда" data-tg="Либоси муосир">Современная одежда</p>
+      </div>
+       <section id="contact">
+    <h2>Контакты</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div><strong>Email</strong><br>jas.kakusareta@icloud.com</div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div><strong>Телефон</strong><br>+992 906 19 33 22</div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div><strong>Адрес</strong><br>г. Кулоб, ул. И. Сомони 2В</div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕒</div>
+          <div><strong>Часы работы</strong><br>Пн-Пт: 9:00 - 21:00</div>
+        </div>
+      </div>
+
+      
+      <div class="footer-col social">
+      <a href="https://www.instagram.com/jas.kakusareta13?igsh=OG04YTBvZWpvb2tt&utm_source=qr">
+        <i class="fab fa-instagram"></i></a>
+         <a href="https://t.me/kakusareta13">
+        <i class="fab fa-telegram"></i></a>
+      </div>
+      <div class="footer-col">
+        <p>© 2026 <span data-ru="Все права защищены" data-tg="Ҳама ҳуқуқҳо ҳифз шудаанд">Все права защищены</span></p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Подключение JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
